@@ -5,6 +5,12 @@ You will need several development libraries:
 * libsqlite3: for database support.
 * libgmp: for secp256k1
 
+OSX
+--------------------
+* sqlite3
+* brew install gmp
+* brew install gnu-sed
+
 For actually doing development and running the tests, you will also need:
 * pip3: to install python-bitcoinlib
 * asciidoc: for formatting the man pages (if you change them)
